@@ -1,0 +1,48 @@
+/* page background */
+body{
+background:#f3f4f6;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* main container */
+.editContainer{
+max-width:500px;
+margin:80px auto;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* title */
+.editTitle{
+margin-bottom:25px;
+text-align:center;
+}
+
+/* input fields */
+.editContainer input,
+.editContainer select{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+}
+
+/* update button */
+.updateBtn{
+width:100%;
+background:#2563eb;
+color:white;
+border:none;
+padding:10px;
+border-radius:6px;
+cursor:pointer;
+font-size:15px;
+}
+
+.updateBtn:hover{
+background:#1e40af;
+}

@@ -1,0 +1,55 @@
+.container{
+  padding:30px;
+}
+
+.topBar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background: transparent;
+}
+
+.logoutBtn{
+ color: white;
+}
+
+.title{
+  margin-top:40px;
+}
+
+.cards{
+  display:flex;
+  gap:30px;
+  margin-top:30px;
+  width: 100%;
+  background: transparent;
+}
+
+.card{
+  background:white;
+  width:250px;
+  padding:30px;
+  border-radius:10px;
+  text-align:center;
+ 
+}
+
+.card p{
+  font-size:24px;
+  font-weight:bold;
+}
+
+.buttons{
+  margin-top:40px;
+  display:flex;
+  gap:20px;
+}
+
+.blueBtn{
+  background:#3b82f6;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:6px;
+  cursor:pointer;
+}
